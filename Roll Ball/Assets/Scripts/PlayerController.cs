@@ -23,4 +23,10 @@ public class PlayerController : MonoBehaviour {
         //  Add force to the rigidbody
         rb.AddForce(movement * speed);
     }   //  FixedUpdate()
+
+    //  Is called when the collider other enters the trigger
+    void OnTriggerEnter(Collider other) {
+        if (other.gameObject.CompareTag("Pick Up")) //  check if collision that was made is of tag Pick Up
+            other.gameObject.SetActive(false);  //  disable object
+    }   //  OnTriggerEnter()
 }   //  PlayerController
