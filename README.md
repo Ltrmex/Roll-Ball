@@ -48,3 +48,29 @@
 * Game over
 
 ### Reference: [Space Shooter Tutorial](https://unity3d.com/learn/tutorials/s/space-shooter-tutorial)
+
+
+# 2D UFO
+
+### Description
+* It's a simple move and collect UFO themed game.
+
+### Learning Outcomes
+*Principles of working with:*
+* 2D
+* Game Objects
+* Prefabs
+* Physics
+* Scripting
+* Components
+
+### Steps
+* Setting up the Game
+* Controlling the Player
+* Adding Collision
+* Following the Player with the Camera
+* Creating Collectable Objects
+* Picking Up Collectables
+* Counting Collectables and Displaying Score
+
+### Reference: [2D UFO Tutorial](https://unity3d.com/learn/tutorials/s/2d-ufo-tutorial)
